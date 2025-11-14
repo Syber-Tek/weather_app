@@ -137,7 +137,7 @@ function App() {
 	const date = new Date();
 	return (
 		<>
-			<div className="flex flex-col items-center justify-center w-full h-screen px-4 bg-amber-400">
+			<div className="flex flex-col items-center justify-center w-full min-h-screen px-4 bg-amber-400">
 				{/* form  */}
 				{error && <div className="w-full max-w-[90vw] lg:max-w-[450px] bg-[#ff2032] text-white absolute top-2 lg:top-10 p-4 capitalize rounded-md">{ `${error.response.data.message}`}</div>
 				}
